@@ -33,7 +33,7 @@ export default function FoodReviewPage() {
       <Divider my="sm"></Divider>
 
       <Group position="center">
-        <Title order={4} mt="sm">
+        <Title order={4} mt="xs">
           Elon Musk
         </Title>
         <Rating defaultValue={5} mt="sm" readOnly />
