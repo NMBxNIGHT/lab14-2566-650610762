@@ -18,13 +18,14 @@ export default function FoodReviewPage() {
       <Title order={2}>Food Review 🍕</Title>
 
       <Title order={4} mt="sm">
-        Your Rating
+        Your rating
       </Title>
-      <Rating defaultValue={0}></Rating>
+      <Rating defaultValue={0} size="lg"></Rating>
       <Textarea
         label="Your review"
         placeholder="Do you enjoy eating?"
         mt="xs"
+        minRows={3}
       ></Textarea>
       <Button color="orange" mt="sm">
         Submit Review
